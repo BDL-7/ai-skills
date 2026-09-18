@@ -1,34 +1,62 @@
 # Project Context skill
 
-`project-context` creates a small, durable, reviewable layer of project knowledge that lives with the repository rather than disappearing at the end of a chat or contributor session. It helps a new contributor or agent understand the project purpose, current state, decisions, evidence, risks, and next safe action without treating a chat, agent memory, or code alone as the complete record.
+## Summary
 
-## What it is for
+`project-context` creates a small, durable, reviewable record of what a project is, what is known, what has been decided, and what should happen next. It keeps that knowledge with the repository so a new contributor or agent can orient quickly without relying on a previous chat, private memory, or code alone.
 
-Use this skill to establish project context for a new or existing repository, import supplied historical material, update a handoff after material work, or audit records for drift. Its four workflows are:
+## When to use this skill
 
-- Bootstrap and discovery: inspect the repository, detect existing records, and propose the smallest useful context set before writing.
-- Historical source import: turn supplied or authorized chats, notes, issues, PRs, or specifications into labeled, reviewable summaries and source-manifest entries.
-- Maintenance and handoff: draft evidence-based updates after research, implementation, validation, or review.
-- Reconciliation and audit: compare project records with implementation, tests, Git history, approved intent, and relevant framework artifacts.
+Use it when you need to:
 
-The default durable output is `docs/project-context/`: `README.md`, `INDEX.md`, `PROJECT_STATE.md`, `DECISIONS.md`, `HANDOFF.md`, and `SOURCE_MANIFEST.md`. Architecture, risk, framework-integration, chat-summary, and reconciliation records are added only when the project needs them. Existing documentation structures are mapped rather than overwritten or duplicated.
+- establish context for a new or existing repository;
+- turn supplied chats, notes, issues, pull requests, or specifications into reviewable project records;
+- prepare a concise handoff after research, planning, implementation, validation, or review; or
+- check whether project records have drifted from code, tests, delivery history, approved intent, or framework artifacts.
 
-## Evidence and framework boundaries
+## What it produces
 
-The skill keeps **Verified**, **Approved**, **Implemented**, **Proposed**, **Inferred**, **Unresolved**, and **Superseded** claims distinct. For example, a chat is not automatically an approved decision, code does not automatically prove approved intent, and a passing test proves only the checks that ran.
+The default context layer is `docs/project-context/`:
 
-It is framework-neutral. Plain Git repositories are fully supported. When present, BMAD, OpenSpec, and Spec Kit artifacts are treated as project-specific sources and linked without replacing, installing, configuring, or modifying those frameworks. Agent memory may assist recall, but is never assumed to be shared, complete, current, or authoritative.
+| Record | Answers |
+| --- | --- |
+| `README.md` and `INDEX.md` | What is this context layer and where should I start? |
+| `PROJECT_STATE.md` | What is the project purpose, current status, active work, risk, and next approved action? |
+| `DECISIONS.md` | What was decided, by whom, why, and what supersedes it? |
+| `HANDOFF.md` | What does the next contributor need to read, validate, avoid assuming, and do next? |
+| `SOURCE_MANIFEST.md` | Which sources support the records, and how may they be handled? |
 
-The skill does not copy raw chats, credentials, tokens, PHI, PII, sensitive laboratory data, confidential material, or proprietary content into Git by default. It also does not claim access to unsupplied chats, private memory, or external systems.
+Architecture, risk, framework-integration, chat-summary, and reconciliation records are added only when useful. The skill maps to established documentation instead of overwriting it or creating a competing status system.
+
+## How it works
+
+1. **Bootstrap and discovery**: inspect the repository, detect existing records and relevant framework artifacts, then propose the smallest useful context set before writing.
+2. **Historical source import**: register each supplied or authorized source, extract durable facts and questions into a reviewable summary, and propose separate record updates.
+3. **Maintenance and handoff**: draft evidence-based updates after material work and keep the next-person handoff short and operational.
+4. **Reconciliation and audit**: compare records with implementation, tests, Git history, approved sources, and framework artifacts; report mismatches without silently rewriting history.
+
+## Evidence rules
+
+Every material claim is labeled **Verified**, **Approved**, **Implemented**, **Proposed**, **Inferred**, **Unresolved**, or **Superseded**. These labels are not interchangeable:
+
+- A chat is working context, not automatically an approved decision.
+- Code shows current implementation, not necessarily approved intent.
+- A passing test verifies the checks that ran, not every user need.
+- Conflicting sources remain unresolved until the appropriate evidence or decision is available.
+
+## Framework, memory, and safety boundaries
+
+The skill works for plain Git projects and does not require BMAD, OpenSpec, Spec Kit, or agent memory. When framework artifacts are present, it treats them as project-specific sources and links them without installing, configuring, replacing, or modifying their framework. Agent memory can help recall, but is never assumed to be shared, complete, current, portable, or authoritative.
+
+It uses only supplied or authorized sources. It does not copy raw chats, credentials, tokens, PHI, PII, sensitive laboratory data, confidential material, or proprietary content into Git by default.
 
 ## Quick start
 
-Inspect first, then use a dry run before creating files:
+Inspect first, then preview the standard records without writing:
 
 ```text
 python scripts/inspect_project_context.py --target <repository>
 python scripts/scaffold_project_context.py --target <repository> --dry-run
 ```
 
-After review and approval, remove `--dry-run` to create only missing standard records. See [SKILL.md](SKILL.md), [references](references/), [templates](templates/), [examples](examples/), and [scripts](scripts/) for the detailed operating model.
+After review and approval, remove `--dry-run` to create only missing standard records. Use [SKILL.md](SKILL.md) for the operating model, [references](references/) for detailed guidance, [templates](templates/) for record formats, and [scripts](scripts/) for safe local helpers.
 
