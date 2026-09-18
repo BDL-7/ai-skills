@@ -15,4 +15,10 @@ class AgentOrchestrationTests(unittest.TestCase):
         for name in ('single-agent-task', 'parallel-read-only-investigation', 'implementation-and-independent-review', 'conflicting-agent-findings'):
             self.assertTrue((ROOT / 'examples' / name / 'README.md').is_file())
         self.assertIn('Stop conditions', (ROOT / 'templates/IMPLEMENTER_ASSIGNMENT.md').read_text(encoding='utf-8'))
+    def test_ready_to_use_role_examples_are_bounded(self):
+        prompt_root = ROOT / 'examples/assignment-prompts'
+        for name in ('SCOUT.md', 'IMPLEMENTER.md', 'REVIEWER.md'):
+            self.assertTrue((prompt_root / name).is_file())
+        self.assertIn('Do not edit', (prompt_root / 'SCOUT.md').read_text(encoding='utf-8'))
+        self.assertIn('Write scope', (prompt_root / 'IMPLEMENTER.md').read_text(encoding='utf-8'))
 if __name__ == '__main__': unittest.main()
