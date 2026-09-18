@@ -18,3 +18,13 @@ Use it for a bounded investigation, non-overlapping implementation, independent 
 
 The package includes decision and safety references, assignment/review templates, and examples for single-agent, parallel scouting, implementation plus review, and conflicting findings. It is framework-neutral and supports any available agent capability without assuming a model, shared memory, or nested delegation.
 
+## Ready-to-use assignment examples
+
+Use the examples as a starting point, replacing bracketed fields with the actual task boundary:
+
+- [Scout assignment](examples/assignment-prompts/SCOUT.md): a read-only investigation.
+- [Implementer assignment](examples/assignment-prompts/IMPLEMENTER.md): one owned change set.
+- [Independent reviewer packet](examples/assignment-prompts/REVIEWER.md): a fresh-context review.
+
+Do not send all three automatically. Use the delegation decision reference first, and assign only the roles that materially improve the outcome.
+
