@@ -1,8 +1,8 @@
 # Context index
 
-Purpose: navigation for durable project records.  
-Status: Implemented  
-Last reviewed: YYYY-MM-DD  
+Purpose: navigation for durable project records.
+Status: Implemented
+Last reviewed: YYYY-MM-DD
 Sources/evidence: repository paths below
 
 | Record | Purpose | Status | Last reviewed |

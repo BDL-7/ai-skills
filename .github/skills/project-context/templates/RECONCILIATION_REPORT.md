@@ -1,8 +1,8 @@
 # Reconciliation report
 
-Purpose: reviewable comparison; not an automatic correction.  
-Status: Proposed  
-Last reviewed: YYYY-MM-DD  
+Purpose: reviewable comparison; not an automatic correction.
+Status: Proposed
+Last reviewed: YYYY-MM-DD
 Sources/evidence: SOURCE_MANIFEST.md
 
 ## Sources compared

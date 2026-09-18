@@ -1,8 +1,8 @@
 # Handoff
 
-Purpose: concise orientation for the next contributor.  
-Status: Unresolved  
-Last reviewed: YYYY-MM-DD  
+Purpose: concise orientation for the next contributor.
+Status: Unresolved
+Last reviewed: YYYY-MM-DD
 Sources/evidence: SOURCE_MANIFEST.md
 
 ## Project purpose
