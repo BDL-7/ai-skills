@@ -1,0 +1,4 @@
+# Terminology
+
+**Authority**: source role, not truth. **Evidence**: support for a bounded claim. **Reconciliation**: review of records against sources. **Handoff**: concise orientation for the next contributor. **Source manifest**: index of imported or referenced sources and handling constraints.
+

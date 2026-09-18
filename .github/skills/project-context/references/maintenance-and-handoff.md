@@ -1,0 +1,4 @@
+# Maintenance and handoff
+
+After material research, planning, implementation, validation, or review, read active records and evidence. Draft updates with exact files, commands, tests, issues, and PRs where available. Show proposed documentation changes and get required approval before writing. Keep the handoff concise: purpose, state, first files, constraints, risks, and next safe action.
+
