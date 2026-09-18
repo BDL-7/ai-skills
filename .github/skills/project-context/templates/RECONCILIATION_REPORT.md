@@ -1,1 +1,15 @@
-# Reconciliation report\n\nPurpose: reviewable comparison; not an automatic correction.\nStatus: Proposed\nLast reviewed: YYYY-MM-DD\nSources/evidence: SOURCE_MANIFEST.md\n\n## Sources compared\n## Findings and mismatches\n| Finding | Impact | Confidence | Status | Recommended next action |\n| --- | --- | --- | --- | --- |\n## Unresolved decisions\n## Validation performed\n## Residual risk\n\n
+# Reconciliation report
+
+Purpose: reviewable comparison; not an automatic correction.  
+Status: Proposed  
+Last reviewed: YYYY-MM-DD  
+Sources/evidence: SOURCE_MANIFEST.md
+
+## Sources compared
+## Findings and mismatches
+| Finding | Impact | Confidence | Status | Recommended next action |
+| --- | --- | --- | --- | --- |
+## Unresolved decisions
+## Validation performed
+## Residual risk
+

@@ -1,1 +1,10 @@
-# Risks, assumptions, and open questions\n\nPurpose: unresolved items requiring review.\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nSources/evidence: SOURCE_MANIFEST.md\n\n| Item | Type | Status | Owner | Evidence | Next action |\n| --- | --- | --- | --- | --- | --- |\n\n
+# Risks, assumptions, and open questions
+
+Purpose: unresolved items requiring review.  
+Status: Unresolved  
+Last reviewed: YYYY-MM-DD  
+Sources/evidence: SOURCE_MANIFEST.md
+
+| Item | Type | Status | Owner | Evidence | Next action |
+| --- | --- | --- | --- | --- | --- |
+

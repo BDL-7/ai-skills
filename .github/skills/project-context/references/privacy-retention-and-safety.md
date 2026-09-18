@@ -1,1 +1,4 @@
-# Privacy, retention, and safety\n\nUse minimum necessary information. Keep raw transcripts separate unless explicit retention and access approval exists. Represent sensitive sources by title, date, evidence ID, owner, and access note rather than copying contents. This package is not a records-management, compliance, retention, or security system. `.github/skills/` compatibility and installation vary by agent environment.\n\n
+# Privacy, retention, and safety
+
+Use minimum necessary information. Keep raw transcripts separate unless explicit retention and access approval exists. Represent sensitive sources by title, date, evidence ID, owner, and access note rather than copying contents. This package is not a records-management, compliance, retention, or security system. `.github/skills/` compatibility and installation vary by agent environment.
+

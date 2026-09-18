@@ -1,1 +1,4 @@
-# Framework integration\n\nDetect frameworks only from repository artifacts. Agent memory is optional recall, never authoritative or assumed shared/current. Treat OpenSpec active changes, BMAD briefs/PRDs/stories, and Spec Kit principles/specs/plans/tasks as reviewable source material; link them and reconcile after implementation. Do not invoke their commands, install, configure, or modify them without an explicit request. Plain Git, issues, PRs, tests, READMEs, and runbooks are valid sources.\n\n
+# Framework integration
+
+Detect frameworks only from repository artifacts. Agent memory is optional recall, never authoritative or assumed shared/current. Treat OpenSpec active changes, BMAD briefs/PRDs/stories, and Spec Kit principles/specs/plans/tasks as reviewable source material; link them and reconcile after implementation. Do not invoke their commands, install, configure, or modify them without an explicit request. Plain Git, issues, PRs, tests, READMEs, and runbooks are valid sources.
+

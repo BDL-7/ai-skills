@@ -1,1 +1,8 @@
-# Architecture\n\nPurpose: architecture evidence and decisions.\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nOwner/approval: Unknown\nSources/evidence: SOURCE_MANIFEST.md\n\n
+# Architecture
+
+Purpose: architecture evidence and decisions.  
+Status: Unresolved  
+Last reviewed: YYYY-MM-DD  
+Owner/approval: Unknown  
+Sources/evidence: SOURCE_MANIFEST.md
+

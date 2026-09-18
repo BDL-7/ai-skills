@@ -1,1 +1,17 @@
-# Handoff\n\nPurpose: concise orientation for the next contributor.\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nSources/evidence: SOURCE_MANIFEST.md\n\n## Project purpose\n## Current status\n## Files to read first\n## Constraints\n## Active work and decisions\n## Validation commands\n## Risks\n## Next safe action\n## Must not be assumed\n\n
+# Handoff
+
+Purpose: concise orientation for the next contributor.  
+Status: Unresolved  
+Last reviewed: YYYY-MM-DD  
+Sources/evidence: SOURCE_MANIFEST.md
+
+## Project purpose
+## Current status
+## Files to read first
+## Constraints
+## Active work and decisions
+## Validation commands
+## Risks
+## Next safe action
+## Must not be assumed
+

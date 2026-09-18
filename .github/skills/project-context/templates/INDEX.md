@@ -1,1 +1,14 @@
-# Context index\n\nPurpose: navigation for durable project records.\nStatus: Implemented\nLast reviewed: YYYY-MM-DD\nSources/evidence: repository paths below\n\n| Record | Purpose | Status | Last reviewed |\n| --- | --- | --- | --- |\n| PROJECT_STATE.md | current project state | Unresolved | YYYY-MM-DD |\n| DECISIONS.md | reviewed decisions | Unresolved | YYYY-MM-DD |\n| HANDOFF.md | next-contributor orientation | Unresolved | YYYY-MM-DD |\n| SOURCE_MANIFEST.md | source inventory | Unresolved | YYYY-MM-DD |\n\n
+# Context index
+
+Purpose: navigation for durable project records.  
+Status: Implemented  
+Last reviewed: YYYY-MM-DD  
+Sources/evidence: repository paths below
+
+| Record | Purpose | Status | Last reviewed |
+| --- | --- | --- | --- |
+| PROJECT_STATE.md | current project state | Unresolved | YYYY-MM-DD |
+| DECISIONS.md | reviewed decisions | Unresolved | YYYY-MM-DD |
+| HANDOFF.md | next-contributor orientation | Unresolved | YYYY-MM-DD |
+| SOURCE_MANIFEST.md | source inventory | Unresolved | YYYY-MM-DD |
+

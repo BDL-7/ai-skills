@@ -1,1 +1,10 @@
-# Decisions\n\nPurpose: reviewable decision register.\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nSources/evidence: SOURCE_MANIFEST.md\n\n| ID | Decision | Status | Date | Decision-maker/approver | Rationale | Alternatives | Evidence | Affected areas | Validation | Supersedes / superseded by |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\n
+# Decisions
+
+Purpose: reviewable decision register.  
+Status: Unresolved  
+Last reviewed: YYYY-MM-DD  
+Sources/evidence: SOURCE_MANIFEST.md
+
+| ID | Decision | Status | Date | Decision-maker/approver | Rationale | Alternatives | Evidence | Affected areas | Validation | Supersedes / superseded by |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
