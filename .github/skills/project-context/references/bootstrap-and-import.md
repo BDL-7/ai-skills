@@ -1,0 +1,4 @@
+# Bootstrap and import
+
+Confirm the repository. Read instructions and documentation; inventory likely authorities; detect existing context and framework artifacts by path only; propose the smallest record set before writing. For imported material, require supplied or authorized sources, make a manifest entry, extract labeled durable facts and questions, and keep raw transcripts separate. A dated chat summary is a reviewed extraction aid, not automatic truth.
+
