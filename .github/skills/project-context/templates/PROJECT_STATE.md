@@ -1,18 +1,1 @@
-# Project state
-
-Purpose: current, evidence-labeled project view.  
-Status: Unresolved  
-Last reviewed: YYYY-MM-DD  
-Owner/approval: Unknown  
-Sources/evidence: SOURCE_MANIFEST.md
-
-## Project purpose
-## Current milestone
-## Verified current status
-## Implemented but unverified work
-## Active work
-## Unresolved decisions
-## Risks
-## Next approved action
-## Last reconciliation evidence
-
+# Project state\n\nPurpose: current, evidence-labeled project view.\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nOwner/approval: Unknown\nSources/evidence: SOURCE_MANIFEST.md\n\n## Project purpose\n## Current milestone\n## Verified current status\n## Implemented but unverified work\n## Active work\n## Unresolved decisions\n## Risks\n## Next approved action\n## Last reconciliation evidence\n\n

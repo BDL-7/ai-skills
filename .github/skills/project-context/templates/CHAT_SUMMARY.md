@@ -1,16 +1,1 @@
-# Imported-source summary
-
-Purpose: reviewed extraction from a supplied or authorized source.  
-Status: Proposed  
-Last reviewed: YYYY-MM-DD  
-Source/evidence: SOURCE_MANIFEST.md#source-id  
-Review/approval: Pending
-
-## Source metadata
-## Verified findings
-## Approved decisions
-## Implemented work
-## Proposals
-## Unresolved questions
-## Recommended record updates
-
+# Imported-source summary\n\nPurpose: reviewed extraction from a supplied or authorized source.\nStatus: Proposed\nLast reviewed: YYYY-MM-DD\nSource/evidence: SOURCE_MANIFEST.md#source-id\nReview/approval: Pending\n\n## Source metadata\n## Verified findings\n## Approved decisions\n## Implemented work\n## Proposals\n## Unresolved questions\n## Recommended record updates\n\n

@@ -1,11 +1,1 @@
-# Project context
-
-## Purpose
-
-<!-- What this context layer covers. -->
-
-Status: Unresolved  
-Last reviewed: YYYY-MM-DD  
-Owner/approval: Unknown  
-Sources/evidence: See SOURCE_MANIFEST.md  
-
+# Project context\n\n## Purpose\n\n<!-- What this context layer covers. -->\n\nStatus: Unresolved\nLast reviewed: YYYY-MM-DD\nOwner/approval: Unknown\nSources/evidence: See SOURCE_MANIFEST.md\n\n
