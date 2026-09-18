@@ -1,0 +1,6 @@
+# Project Context skill
+
+One framework-neutral skill for durable project knowledge. It supports bootstrap/discovery, historical-source import, maintenance/handoff, and reconciliation/audit. It works with plain Git and, when artifacts are present, maps BMAD, OpenSpec, Spec Kit, and agent memory without replacing them.
+
+Run `python scripts/scaffold_project_context.py --target <repo> --dry-run` before scaffolding. See [SKILL.md](SKILL.md), [references](references/), [templates](templates/), and [examples](examples/).
+
